@@ -1,0 +1,819 @@
+{
+    "message.name already exists": "الاسم موجود مسبقا",
+    "alshamel": "الشامل",
+    "login": {
+        "loginIn": "تسجيل الدخول",
+        "Rememberme": "تذكرني",
+        "Password": "كلمه المرور",
+        "Emailaddress": "البريد الالكتروني",
+        "Enteryouremailaddressandpasswordtoaccessadminpanel": "أدخل عنوان بريدك الإلكتروني وكلمة المرور للوصول إلى لوحة الإدارة.",
+        "Enteryouremail": "ادخل الاميل",
+        "Enteryourpassword": "ادخل كلمه المرور",
+        "success": "تم تسجيل الدخول بنجاح .",
+        "danger": "يوجد خطا في الاميل او الباسورد",
+        "Loading": "تحميل"
+    },
+    "module": {
+        "addmodule": "اضافه موديل جديد",
+        "editmodule": "تعديل موديل ",
+        "ScreensTable": "جدول الشاشات",
+        "ModulesTable": "جدول الموديول",
+        "ButtonsTable": "جدول الأزرار",
+        "module": "موديول"
+    },
+    "Workflow": {
+        "AddWorkflow": "اضافة شجرة سير العمل",
+        "EditWorkflow": "تعديل شجرة سير العمل",
+        "Workflow": "سير العمل",
+        "WorkflowsTable": "جدول سير العمل"
+    },
+    "DocumentType": {
+        "AddDocumentType": "اضافة نوع المستند",
+        "EditDocumentType": "تعديل نوع المستند",
+        "DocumentType": "نوع المستند",
+        "DocumentTypesTable": "جدول انواع المستندات"
+    },
+    "DocumentField": {
+        "AddDocumentField": "أضف حقل مستند",
+        "EditDocumentField": "تحرير حقل المستند",
+        "DocumentField": "حقل الوثيقة",
+        "DocumentFieldsTable": "جدول حقول الوثيقة"
+    },
+    "ArchiveClosedReference": {
+        "AddArchiveClosedReference": "إضافة أرشيف مرجعي مغلق",
+        "EditArchiveClosedReference": "تحرير مرجع الأرشيف مغلق",
+        "ArchiveClosedReferencesTable": "أرشفة جدول مرجعي مغلق",
+        "ArcDocField": "Archive Doc Field",
+        "FieldValue": "Field Value"
+    },
+    "ArchDepartment": {
+        "AddArchDepartment": " Add Arch Department",
+        "EditArchDepartment": "Edit Arch Department",
+        "ArchDepartment": "Arch Department",
+        "ArchDepartmentTable": "Arch Department Table"
+    },
+    "ArchDocument": {
+        "AddArchDocument": " Add Arch Document",
+        "EditArchDocument": "Edit Arch Document",
+        "ArchDocument": "Arch Document",
+        "ArchDocumentTable": "Arch Document Table",
+        "DocStatus": "Doc Status",
+        "URLReference": "URL Reference",
+        "DocDescription": "Doc Description",
+        "GenArchDocType": "Gen Arch Doc Type"
+    },
+    "GenArchDocType": {
+        "AddGenArchDocType": "Add Gen Arch Doc Type",
+        "EditGenArchDocType": "Edit Gen Arch Doc Type",
+        "GenArchDocType": "Gen Arch Doc Type",
+        "GenArchDocTypeTable": "Gen Arch Doc Type Table"
+    },
+    "ArchDocTypeField": {
+        "AddArchDocTypeField": "Add Arch Doc Type Field",
+        "EditArchDocTypeField": "Edit Arch Doc Type Field",
+        "ArchDocTypeField": "Arch Doc Type Field",
+        "ArchDocTypeFieldTable": "Arch Doc Type Field Table"
+    },
+    "ArchDocumentDtl": {
+        "AddArchDocumentDtl": " Add Arch Document Dtl",
+        "EditArchDocumentDtl": "Edit Arch Document Dtl",
+        "ArchDocumentDtl": "Arch Document Dtl",
+        "ArchDocumentDtlTable": "Arch Document Dtl Table"
+    },
+    "StockMarket": {
+        "AddStockMarket": " Add Stock Market",
+        "EditStockMarket": "Edit Stock Market",
+        "StockMarket": "Stock Market",
+        "StockMarketTable": "Stock Market Table"
+    },
+    "StockSector": {
+        "AddStockSector": " Add Stock Sector",
+        "EditStockSector": "Edit Stock Sector",
+        "StockSector": "Stock Sector",
+        "StockSectorTable": "Stock Sector Table"
+    },
+    "Stock": {
+        "AddStock": " Add Stock ",
+        "EditStock": "Edit Stock ",
+        "Stock": "Stock ",
+        "StockTable": "Stock Table"
+    },
+    "ArchDocStatus": {
+        "AddArchDocStatus": " Add Arch Doc Status",
+        "EditArchDocStatus": "Edit Arch Doc Status",
+        "ArchDocStatus": "Arch Doc Status",
+        "ArchDocStatusTable": "Arch Doc Status Table"
+    },
+    "Wallet": {
+        "AddWallet": " Add Wallet",
+        "EditWallet": "Edit Wallet",
+        "Wallet": "Wallet",
+        "WalletTable": "Wallet Table",
+        "wallet_id": "Wallet",
+        "date": "Date",
+        "time": "Time",
+        "type": "Type",
+        "note": "Note",
+        "qty": "Qty",
+        "price": "Price",
+        "fixed_commission": "Fix Comm",
+        "other_commission": "Other Comm",
+        "net_value": "Net Value",
+        "trade_average": "Trade Avg",
+        "old_qty": "Old Qty",
+        "old_average": "Old Avg",
+        "new_qty": "New Qty",
+        "new_average": "New Avg",
+        "profit": "Profit"
+    },
+    "StockSalePurchase": {
+        "Add": "Add Stock Sale Purchase",
+        "Edit": "Edit Stock Sale Purchase",
+        "StockSalePurchase": "Stock Sale Purchase",
+        "Table": "Stock Sale Purchase Table",
+        "wallet_id": "Wallet",
+        "stock": "Stock",
+        "date": "Date",
+        "time": "Time",
+        "type": "Type",
+        "typeBuy": "Buy",
+        "typeSell": "Sell",
+        "typeGift": "Gift",
+        "note": "Note",
+        "qty": "Qty",
+        "price": "Price",
+        "fixed_commission": "Fix Comm",
+        "other_commission": "Other Comm",
+        "net_value": "Net Value",
+        "trade_average": "Trade Avg",
+        "old_qty": "Old Qty",
+        "old_average": "Old Avg",
+        "new_qty": "New Qty",
+        "new_average": "New Avg",
+        "profit": "Profit"
+    },
+    "HotField": {
+        "AddHotField": "اضافة حقل ساخن",
+        "EditHotField": "تعديل الحقل الساخن",
+        "HotField": "الحقل الساخن",
+        "HotFieldsTable": "جدول الحقول الساخنة"
+    },
+    "OpenningBalance": {
+        "AddOpenningBalance": " Add Openning Balance ",
+        "EditOpenningBalance": "Edit Openning Balance ",
+        "OpenningBalance": "Openning Balance ",
+        "OpenningBalanceTable": "Openning Balance Table",
+        "date": "Date",
+        "qty": "Qty",
+        "price": "Price",
+        "net": "Net",
+        "stock": "Stock",
+        "currency": "Currency",
+        "wallet": "Wallet"
+    },
+    "ClosingBalance": {
+        "AddClosingBalance": " Add Closing Balance",
+        "EditClosingBalance": "Edit Closing Balance",
+        "ClosingBalance": "Closing Balance",
+        "ClosingBalanceTable": "Closing Balance Tables"
+    },
+
+    "AllTransactions": {
+        "AllTransactionsTable": " All Transactions Table",
+        "AllTransactionsFilter": " All Transactions Filter",
+        "currency": "Currency",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "stock": "Stock",
+        "qty": "Total Quantity",
+        "Beforeqty": "Before Quantity",
+        "wallet": "Wallet",
+        "beforeCostPrice": "Before Cost Price",
+        "price": " Price",
+        "totalPrice": "Total Price",
+        "beforetotalCostPrice": "Before Cost Total Price",
+        "beforeClosingPrice": "Before Closing Price",
+        "beforeClosingTotal": "Before Closing Total Price",
+        "sellqty": "Sell Quantity",
+        "sellvalue": "Sell Value",
+        "purchaseqty": "Quantity Purchase",
+        "purchasvalue": "Value Purchase",
+        "currentQuantity": "Current Quantity",
+        "currentPrice": "Current Cost Price",
+        "currentClosingPrice": "Current Closing Price",
+        "currentClosingTotal": "Current Closing Total",
+        "currentTotal": "Current  Cost Total"
+    },
+    "ProfitReport": {
+        "ProfitReportTable": " Profit Reports Table",
+        "ProfitReportFilter": " Profit Reports  Filter",
+        "currency": "Currency",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "stock": "Stock",
+        "wallet": "Wallet"
+    },
+    "RealizedUnrealized": {
+        "RealizedUnrealizedTable": "Realized and Unrealized Profits",
+        "RealizedUnrealizedFilter": "Realized and Unrealized Filter",
+        "currency": "Currency",
+        "startDate": "Start Date",
+        "endDate": "End Date",
+        "qty": " Quantity",
+        "closingPrice": "Closing Price/Cost",
+        "stock": "Stock",
+        "wallet": "Wallet",
+        "totalPrice": "Total Price",
+        "sellqty": "Sell Quantity",
+        "sellvalue": "Sell Value",
+        "purchaseqty": "Quantity Purchase",
+        "purchasvalue": "Value Purchase",
+        "currentQuantity": "Current Quantity",
+        "currentPrice": "Current Price",
+        "currentTotal": "Current Total",
+        "cost": "Cost",
+        "avgPrc": "Average Price",
+        "RealizedProfit": "Realized Profit",
+        "unRealizedProfit": "UnRealized Profit"
+    },
+    "screen_button": {
+        "AddScreenButton": "اضافة زر الشاشة",
+        "EditScreenButton": "تعديل زر الشاشة",
+        "ScreenButtonsTable": "جدول ازرار الشاشة",
+        "screen_button": "زر الشاشة"
+    },
+    "partner": {
+        "addpartner": "اضافه شريك جديد",
+        "editpartner": "تعديل الشريك ",
+        "partnersTable": "جدول الشركاء",
+        "partner": "الشركاء"
+    },
+    "company": {
+        "addcompany": "اضافه الشركه جديد",
+        "editcompany": "تعديل الشركه ",
+        "companysTable": "جدول الشركات",
+        "company": "الشركات",
+        "LogoFileUpload": "تحميل ملف الشعار"
+    },
+    "HotFields": {
+        "text": "الحقول الساخنة"
+    },
+    "companyModule": {
+        "add": "اضافه الشركه جديد",
+        "edit": "تعديل",
+        "companyModule": "موديول الشركات",
+        "table": "جدول موديول الشركات"
+    },
+    "navbar": {
+        "search": {
+            "text": "بحث..."
+        },
+        "dropdown": {
+            "createnew": {
+                "text": "خلق جديد إبداع جديد",
+                "list": {
+                    "projects": "مشاريع جديدة",
+                    "users": "أنشئ مستخدمين",
+                    "revenue": "تقرير الإيرادات",
+                    "settings": "الإعدادات",
+                    "help": "ساعد لدعم"
+                }
+            },
+            "megamenu": {
+                "text": "قائمة ميجا",
+                "uicontent": {
+                    "title": "مكونات واجهة المستخدم",
+                    "list": {
+                        "widgets": "الحاجيات",
+                        "nestable": "قائمة عش",
+                        "rangeslider": "رينج سلايدر",
+                        "masonry": "عناصر البناء",
+                        "sweetalert": "تنبيهات حلوة",
+                        "treeview": "صفحة Treeview",
+                        "tour": "صفحة الجولة"
+                    }
+                },
+                "application": {
+                    "title": "التطبيقات",
+                    "list": {
+                        "ecommerce": "صفحات التجارة الإلكترونية",
+                        "crm": "صفحات CRM",
+                        "email": "البريد الإلكتروني",
+                        "calendar": "التقويم",
+                        "contacts": "اتصالات الفريق",
+                        "tasks": "مجلس المهام",
+                        "template": "قوالب البريد الإلكتروني"
+                    }
+                },
+                "extrapages": {
+                    "title": "صفحات اضافية",
+                    "list": {
+                        "leftsidebaruser": "الشريط الجانبي الأيسر مع المستخدم",
+                        "collapsed": "تم طي القائمة",
+                        "leftsidebar": "شريط جانبي أيسر صغير",
+                        "header": "نمط رأس جديد",
+                        "search": "نتيجة البحث",
+                        "gallery": "صفحات المعرض",
+                        "maintenance": "الصيانة وقريبًا"
+                    }
+                },
+                "discount": "بيع خصم خاص!",
+                "subtext": "وفر حتى 70٪.",
+                "buttontext": "التحميل الان"
+            },
+            "site": {
+                "list": {
+                    "github": "GitHub",
+                    "bitbucket": "Bitbucket",
+                    "dribbble": "Dribbble",
+                    "dropbox": "Dropbox",
+                    "g-suite": "G Suite",
+                    "slack": "Slack"
+                }
+            },
+            "notification": {
+                "badge": "5",
+                "text": "إشعارات",
+                "subtext": "امسح الكل",
+                "1": {
+                    "title": "علق دوج دوكس على لوحة تحكم المشرف",
+                    "text": "قبل دقيقة واحدة"
+                },
+                "2": {
+                    "title": "ماريو دروموند",
+                    "text": "اهلا كيف انت؟ ماذا عن اجتماعنا القادم"
+                },
+                "3": {
+                    "title": "كارين روبنسون",
+                    "text": "نجاح باهر ! هذا المشرف يبدو تصميمًا جيدًا ورائعًا"
+                },
+                "4": {
+                    "title": "مستخدم جديد مسجل.",
+                    "text": "منذ 5 ساعات"
+                },
+                "5": {
+                    "title": "علق كاليب فلاكيلار على المسؤول",
+                    "text": "قبل 4 أيام"
+                },
+                "6": {
+                    "title": "أحب كارلوس كراوتش",
+                    "text": "قبل 13 يوم"
+                },
+                "button": "مشاهدة الكل"
+            },
+            "name": {
+                "text": "Nik Patel",
+                "list": {
+                    "greet": "أهلا بك !",
+                    "account": "حسابي",
+                    "mywallet": "محفظتي",
+                    "settings": "الإعدادات",
+                    "lockscreen": "اقفل الشاشة",
+                    "logout": "تسجيل خروج"
+                }
+            }
+        }
+    },
+    "menuitems": {
+        "navigation": {
+            "text": "التنقل"
+        },
+        "module": {
+            "text": "موديول"
+        },
+        "screen_button": {
+            "text": "زر الشاشة"
+        },
+        "HotFields": {
+            "text": "الحقول الساخنة"
+        },
+        "DocumentType": {
+            "text": "انواع المستندات"
+        },
+        "DocumentField": {
+            "text": "حقول الوثيقة"
+        },
+        "ArchiveClosedReference": {
+            "text": "أرشيف المرجع مغلق"
+        },
+        "ArchDepartment": {
+            "text": "Archive Department"
+        },
+        "ArchDocument": {
+            "text": "Archive Document"
+        },
+        "GenArchDocType": {
+            "text": "نوع مستند القوس العام"
+        },
+        "ArchDocTypeField": {
+            "text": "حقل نوع المستند القوسي"
+        },
+        "ArchDocumentStatus": {
+            "text": "Arch Document Status"
+        },
+        "ArchDocumentDtl": {
+            "text": "Arch Document Dtl"
+        },
+        "StockMarket": {
+            "text": "Stock Market"
+        },
+        "StockSector": {
+            "text": "Stock Sector"
+        },
+        "Stock": {
+            "text": "Stock"
+        },
+        "wallet": {
+            "text": "Wallet"
+        },
+        "StockSalePurchase": {
+            "text": "Stock Sale Purchase"
+        },
+        "OpenningBalance": {
+            "text": "Openning Balance"
+        },
+        "ClosingBalance": {
+            "text": "Closing Balance"
+        },
+        "AllTransactions": {
+            "text": " All Transactions"
+        },
+        "ProfitReport": {
+            "text": " Profit Reports"
+        },
+        "buttons": {
+            "text": "الأزرار"
+        },
+        "companyModule": {
+            "text": "موديول الشركات"
+        },
+        "company": {
+            "text": "الشركات"
+        },
+        "partner": {
+            "text": "الشركاء"
+        },
+        "Workflow": {
+            "text": "سير العمل"
+        },
+        "dashboard": {
+            "text": "لوحة القيادة",
+            "badge": "3",
+            "list": {
+                "sales": "مبيعات",
+                "crm": "CRM",
+                "analytics": "تحليلات"
+            }
+        },
+        "apps": {
+            "text": "تطبيقات"
+        },
+        "chat": {
+            "text": "دردشة"
+        },
+        "ecommerce": {
+            "text": "التجارة الإلكترونية",
+            "badge": "جديد",
+            "list": {
+                "products": "قائمة المنتجات",
+                "productsgrid": "شبكة المنتجات",
+                "productdetail": "تفاصيل المنتج",
+                "createproduct": "إنشاء منتج",
+                "customers": "العملاء",
+                "orders": "الطلب #٪ s",
+                "orderdetail": "تفاصيل الطلب",
+                "sellers": "الباعة",
+                "cart": "عربة التسوق",
+                "checkout": "الدفع"
+            }
+        },
+        "calendar": {
+            "text": "التقويم"
+        },
+        "email": {
+            "text": "البريد الإلكتروني",
+            "list": {
+                "inbox": "صندوق الوارد",
+                "reademail": "قراءة البريد الإلكتروني",
+                "template": "قوالب البريد الإلكتروني"
+            }
+        },
+        "companies": {
+            "text": "الشركات"
+        },
+        "tasks": {
+            "text": "مهام",
+            "list": {
+                "list": "قائمة",
+                "detail": "تفاصيل",
+                "kanban": "مجلس كانبان"
+            }
+        },
+        "ticket": {
+            "text": "تذاكر"
+        },
+        "contacts": {
+            "text": "جهات الاتصال",
+            "list": {
+                "members": "قائمة الأعضاء",
+                "profile": "الملف الشخصي"
+            }
+        },
+        "filemanager": {
+            "text": "مدير الملفات"
+        },
+        "custom": {
+            "text": "مخصص"
+        },
+        "auth": {
+            "text": "صفحات المؤلف",
+            "list": {
+                "login": "تسجيل الدخول",
+                "login-2": "تسجيل الدخول 2",
+                "register": "تسجيل",
+                "register-2": "التسجيل 2",
+                "signin-signup": "تسجيل الدخول - الاشتراك",
+                "signin-signup-2": "2 تسجيل الدخول - الاشتراك",
+                "recoverpwd": "إستعادة كلمة المرور",
+                "recoverpwd-2": "2 إستعادة كلمة المرور",
+                "lock-screen": "اقفل الشاشة",
+                "lock-screen-2": "2 اقفل الشاشة",
+                "logout": "تسجيل خروج",
+                "logout-2": "2 تسجيل خروج",
+                "confirm-mail": "تأكيد البريد",
+                "confirm-mail-2": "2 تأكيد البريد"
+            }
+        },
+        "extrapages": {
+            "text": "صفحات اضافية",
+            "list": {
+                "starter": "بداية",
+                "timeline": "الجدول الزمني",
+                "sitemap": "خريطة الموقع",
+                "invoice": "فاتورة",
+                "faqs": "أسئلة وأجوبة",
+                "search-results": "نتائج البحث",
+                "pricing": "التسعير",
+                "maintenance": "اعمال صيانة",
+                "comingsoon": "قريبا",
+                "lightbox": "صندوق مضئ",
+                "error404": "خطأ 404",
+                "error404-alt": "خطأ 404-بديل",
+                "error500": "خطأ 500"
+            }
+        },
+        "components": {
+            "text": "مكونات"
+        },
+        "ui": {
+            "text": "واجهة المستخدم الأساسية",
+            "list": {
+                "avatars": "الآلهة",
+                "buttons": "أزرار",
+                "cards": "البطاقات",
+                "carousel": "دائري",
+                "dropdowns": "هبوط قطرة",
+                "video": "تضمين الفيديو",
+                "general": "واجهة المستخدم العامة",
+                "grid": "جريد",
+                "images": "الصور",
+                "listgroup": "قائمة المجموعة",
+                "modals": "وسائط",
+                "notifications": "إشعارات",
+                "portlet": "المداخل",
+                "progress": "التقدم",
+                "ribbons": "شرائط",
+                "spinners": "الغزالون",
+                "tabs": "علامات التبويب والأكورديون",
+                "tooltip": "تلميحات الأدوات والبوبوفر",
+                "typography": "الطباعة"
+            }
+        },
+        "extendedui": {
+            "text": "تمديد واجهة المستخدم",
+            "badge": "الحار",
+            "list": {
+                "rangeslider": "نطاق المنزلق",
+                "sweetalert": "تنبيه جميل",
+                "tour": "صفحة الجولة",
+                "scrollspy": "Scrollspy"
+            }
+        },
+        "widgets": {
+            "text": "الحاجيات"
+        },
+        "icons": {
+            "text": "الأيقونات",
+            "list": {
+                "feather": "ريشة",
+                "remix": "ريمكس",
+                "boxicons": "بوكسيكونس",
+                "materialdesign": "تصميم المواد",
+                "dripicons": "Dripicons",
+                "fontawesome": "رائع الخط 5",
+                "weather": "طقس"
+            }
+        },
+        "forms": {
+            "text": "نماذج",
+            "list": {
+                "elements": "العناصر العامة",
+                "advanced": "المتقدمة",
+                "validation": "التحقق من الصحة",
+                "wizard": "ساحر",
+                "mask": "قناع",
+                "editor": "محرر الريشة",
+                "fileupload": "تحميلات الملف"
+            }
+        },
+        "tables": {
+            "text": "الجداول",
+            "list": {
+                "basic": "الجداول الأساسية",
+                "advanced": "جدول متقدم"
+            }
+        },
+        "charts": {
+            "text": "الرسوم البيانية",
+            "list": {
+                "apex": "ذروة",
+                "chartjs": "تشارتجس",
+                "c3": "ج 3",
+                "chartist": "الجارتي",
+                "knob": "مقبض الباب"
+            }
+        },
+        "maps": {
+            "text": "خرائط",
+            "list": {
+                "googlemap": "خرائط جوجل"
+            }
+        },
+        "pages": {
+            "text": "الصفحات"
+        },
+        "authstyle": {
+            "text": "أسلوب المصادقة 1"
+        },
+        "authstyle2": {
+            "text": "أسلوب المصادقة 2"
+        },
+        "errors": {
+            "text": "أخطاء"
+        },
+        "utility": {
+            "text": "خدمة"
+        },
+        "multilevel": {
+            "text": "متعدد المستويات",
+            "list": {
+                "level1": {
+                    "1": "المستوى 1.1",
+                    "2": "المستوى 1.2",
+                    "level2": {
+                        "1": "المستوى 2.1",
+                        "2": "المستوى 2.2"
+                    }
+                }
+            }
+        }
+    },
+    "general": {
+        "AddButton": "اضافة زرار",
+        "AddFile": "اضافة ملف",
+        "DeletedSuccessfully": "تم الحذف بنجاح",
+        "Buttons": "الازرار",
+        "DocumentType": "انواع الملفات",
+        "ExistBefore": "موجود مسبقا",
+        "title": "العنوان (عربي)",
+        "title_en": "العنوان (انجليزي)",
+        "IdSort": "معرف الترتيب",
+        "screens": "الشاشات",
+        "Partner": "الشريك",
+        "Company": "الشركة",
+        "Module": "الوحدة",
+        "Default": "افتراضي",
+        "NonDefault": "غير افتراضي",
+        "ImageUploads": "تحميل الصور",
+        "Yes": "نعم",
+        "No": "لا",
+        "Apply": "تطبيق",
+        "TableName": "اسم الجدول",
+        "FieldName": "اسم الحقل",
+        "FieldTitle": "عنوان الحقل (عربي)",
+        "FieldTitleEn": "عنوان الحقل (انجليزي)",
+        "Visibility": "الرؤية",
+        "Screen": "الشاشة",
+        "Button": "الزر",
+        "fieldIsRequired": "هذا الحقل مطلوب .",
+        "PleaseEnterValidEmail": "الرجاء إدخال بريد إلكتروني صحيح .",
+        "notDataFound": "لا يوجد بيانات .",
+        "Create": "اضافه",
+        "Action": "الاجراءات",
+        "Status": "الحاله",
+        "Date": "التاريخ",
+        "Active": "نشط",
+        "Inactive": "غير نشط",
+        "Visible": "مرئي",
+        "Invisible": "غير مرئي",
+        "Name": "الاسم(عربي)",
+        "Name_en": "الاسم(انجليزي)",
+        "Areyousure": "هل انت متاكد ؟",
+        "Youwontbeabletoreverthis": "لن تتمكن من التراجع عن هذا!",
+        "Yesdeleteit": "نعم ، احذفها!",
+        "Nocancel": "لا ، إلغاء!",
+        "Error": "خطأ",
+        "Deleted": "تم الحذف",
+        "Thereisanerrorinthesystem": "يوجد خطا في النظام!",
+        "Yourrowhasbeendeleted": "تم حذف صفك .",
+        "Previous": "السابق",
+        "Next": "التالي",
+        "Looksgood": "تبدو جيده !",
+        "Itmustbeatleast": "يجب ان يكون علي الاقل",
+        "letters": "احرف",
+        "Itmustbeatmost": "يجب ان يكون علي الاكثر",
+        "Choose": "اختار",
+        "Add": "اضافه",
+        "Edit": "تعديل",
+        "Cancel": "إلغاء",
+        "IdParent": "الاب",
+        "Addedsuccessfully": "تم الاضافه بنجاح !",
+        "AddedFailed": "Quantity should not be greater than total Quantity",
+        "Nostock": "You do not have stock to sell",
+        "Editsuccessfully": "تم التعديل بنجاح !",
+        "samaAs": "يجب أن تكون كلمات المرور متطابقة.",
+        "repeatPassword": "اعاده الرقم السري",
+        "mobile_no": "رقم التليفون",
+        "Search": "بحث",
+        "Show": "عرض ",
+        "entries": "ادخالات",
+        "Itmustbeyourlink": "يجب أن يكون لنك",
+        "fieldIsInteger": "هذا يجب ان يكون رقم",
+        "taxnumber": "رقم ضريبي",
+        "Valueaddedregistrationnumber": "رقم تسجيل القيمة المضافة",
+        "CommercialRecord": "سجل التجاري",
+        "companysystempath": "مسار نظام الشركة",
+        "website": "لنك الموقع",
+        "address": "العنوان",
+        "Dropfileshereorclicktoupload": "إسقاط الملفات هنا أو انقر للتحميل.",
+        "fieldIsImage": "هذا الحقل يجب ان يكون الصوره .",
+        "ItmustbeyourImage": "يجب ان يكون امتداد الصور (jpeg,png,gif,jpg)",
+        "alphaArabic": "هذا الحقل يجب ان يكون باللغه العربيه.",
+        "alphaEnglish": "هذا الحقل يجب ان يكون باللغه الانجليزيه.",
+        "Alpha": "هذا الحقل يجب ان يكون حروف فقط",
+        "filter": "فلتر",
+        "group": "جروب",
+        "setting": "اعدادات",
+        "commands": "الاوامر",
+        "delete": "حذف",
+        "edit": "تعديل",
+        "searchSetting": "إعداد البحث",
+        "AddNewRecord": "أضف سجل جديد",
+        "Save": "حفظ",
+        "DataEntry": "ادخل البيانات",
+        "allowed_users_no": "عدد المستخدمين المسموح لهم",
+        "startDate": "وقت البدايه",
+        "endDate": "وقت النهايه",
+        "Thisfilehasalreadybeenuploaded": " تم رفع هذا الملف من قبل\n لتغيير الملف اضغط علي استبدال",
+        "Replace": "استبدال",
+        "Type": "يكتب",
+        "DocumentFieldNumeric": "Numeric",
+        "DocumentFieldDate": "Date",
+        "DocumentFieldDdlb": "ddlb{}",
+        "DocumentFieldLookup": "lookup(Table)",
+        "isReference": "Is Reference?",
+        "isReferenceYes": "نعم",
+        "isReferenceNo": "لا",
+        "Archive": "No",
+        "ArchiveClosedReferenceDocField": "Archive Document Field",
+        "ArchiveClosedReferenceFieldValue": "Field Value",
+        "ArchDepartmentParentID": "Arch Department",
+        "ArchDocumentDocDesc": "Doc Description",
+        "ArchDocumentDocStatus": "Doc Status",
+        "ArchDocumentArchDocType": "Arch Doc Type",
+        "ArchDocumentDocURLreference": "URL Reference",
+        "isValid": "صالح",
+        "parentId": "الأبوين",
+        "genArchDocType": "Gen Arch Doc Type",
+        "archDocTypeField": "Arch Doc Field",
+        "fieldOrder": "Field Order",
+        "isRequired": "Is Required",
+        "fieldCharacter": "Field Character",
+        "numericValidation": "This field should contains positive value.",
+        "fieldValue": "Field Value",
+        "walletStockBalance": "Stock Balance",
+        "stockMarket": "Stock Market",
+        "stockSector": "Stock Sector",
+        "symbol": "Symbol",
+        "stocks": "أسهم",
+        "MasterFiles": "الملفات الرئيسية",
+        "Transactions": "المعاملات",
+        "Report": "التقارير",
+        "HelpFiles": "ملفات المساعدة",
+        "stock_market_url":"رابط سوق الأسهم",
+        "totalNet": "اجمالى صافى المبلغ",
+        "totalShearBalanceWithClosingBrice": "اجمالى قيمة الاسهم بسعر الاقفال ",
+        "TotalShareBalanceWithAveragePrice": "اجمالى قيمة الاسهم بمتوسط السعر ",
+        "decimalNumber": "الرقم العشرى"
+    }
+}

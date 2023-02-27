@@ -1,0 +1,33 @@
+<IfModule mod_rewrite.c>
+
+
+RewriteEngine On
+
+
+# Redirect Trailing Slashes If Not A Folder...
+# - but look for the file in the "public" folder
+# (ensure we are not already in the "public" folder)
+
+RewriteCond %{REQUEST_URI} !^/public
+#RewriteCond %{DOCUMENT_ROOT}/public/$1 !-d
+#RewriteRule ^(.*)/$ /$1 [L,R=301]
+ 
+
+# Rewrite "everything" to the "public" subdirectory if not already
+# This ignores existing files/dirs in the document root
+#RewriteCond %{REQUEST_URI} ^/(.*)
+ RewriteRule ^(.*)$ public/$1 [L]
+
+
+# Handle Front Controller... (as before)
+#RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [L]
+</IfModule>
+
+
+
+<Files .env>
+    Order allow,deny
+    Deny from all
+</Files>
